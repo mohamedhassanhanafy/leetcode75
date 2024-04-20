@@ -16,7 +16,7 @@ class _1MergeStringAlternatelyTest {
         _1MergeStringAlternately underTest = new _1MergeStringAlternately();
         String result = underTest.mergeAlternately(word1, word2);
         //then
-        assertEquals(result, "apbqcr");
+        assertEquals("apbqcr", result);
     }
 
 
@@ -30,7 +30,7 @@ class _1MergeStringAlternatelyTest {
         _1MergeStringAlternately underTest = new _1MergeStringAlternately();
         String result = underTest.mergeAlternately(word1, word2);
         //then
-        assertEquals(result, "apbqcrde");
+        assertEquals("apbqcrde", result);
     }
 
     @Test
@@ -43,6 +43,6 @@ class _1MergeStringAlternatelyTest {
         _1MergeStringAlternately underTest = new _1MergeStringAlternately();
         String result = underTest.mergeAlternately(word1, word2);
         //then
-        assertEquals(result, "apbqcrxy");
+        assertEquals("apbqcrxy", result);
     }
 }
