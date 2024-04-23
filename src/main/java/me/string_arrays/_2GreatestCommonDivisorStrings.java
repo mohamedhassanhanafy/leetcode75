@@ -1,4 +1,4 @@
-package me;
+package me.string_arrays;
 
 public class _2GreatestCommonDivisorStrings {
 
