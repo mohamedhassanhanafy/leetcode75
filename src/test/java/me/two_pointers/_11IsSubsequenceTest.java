@@ -1,11 +1,10 @@
 package me.two_pointers;
 
-import me.string_arrays._9StringCompression;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class _10IsSubsequenceTest {
+class _11IsSubsequenceTest {
 
     @Test
     void isSubsequence() {
@@ -14,7 +13,7 @@ class _10IsSubsequenceTest {
         String t = "";
 
         //when
-        _10IsSubsequence underTest = new _10IsSubsequence();
+        _11IsSubsequence underTest = new _11IsSubsequence();
         boolean result = underTest.isSubsequence(s, t);
 
         //then
@@ -28,7 +27,7 @@ class _10IsSubsequenceTest {
         String t = "ahbgdc";
 
         //when
-        _10IsSubsequence underTest = new _10IsSubsequence();
+        _11IsSubsequence underTest = new _11IsSubsequence();
         boolean result = underTest.isSubsequence(s, t);
 
         //then
@@ -42,7 +41,7 @@ class _10IsSubsequenceTest {
         String t = "ahbgdc";
 
         //when
-        _10IsSubsequence underTest = new _10IsSubsequence();
+        _11IsSubsequence underTest = new _11IsSubsequence();
         boolean result = underTest.isSubsequence(s, t);
 
         //then

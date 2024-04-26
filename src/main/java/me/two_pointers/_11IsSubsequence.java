@@ -1,6 +1,6 @@
 package me.two_pointers;
 
-public class _10IsSubsequence {
+public class _11IsSubsequence {
 
     public boolean isSubsequence(String s, String t) {
         if (s.length() > t.length())
