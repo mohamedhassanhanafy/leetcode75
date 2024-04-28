@@ -7,17 +7,12 @@ public class _19PivotIndex {
 
         int[] leftSums = new int[nums.length];
         leftSums[0] = 0;
-        for (int i = 1; i < nums.length; i++) {
-            leftSums[i] = leftSums[i-1] + nums[i-1];
-        }
-
         int[] rightSums = new int[nums.length];
         rightSums[nums.length -1] = 0;
-        for (int i = nums.length - 2; i >= 0; i--) {
-            rightSums[i] = rightSums[i+1] + nums[i+1];
+        for (int i = 1, j = nums.length -2; i < nums.length && j > -1; i++, j--) {
+            leftSums[i] = leftSums[i-1] + nums[i-1];
+            rightSums[j] = rightSums[j+1] + nums[j+1];
         }
-
-
 
         for (int i = 0; i <nums.length; i++) {
             if (leftSums[i] == rightSums[i]){
