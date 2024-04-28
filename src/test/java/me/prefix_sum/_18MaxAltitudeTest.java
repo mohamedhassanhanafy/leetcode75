@@ -14,7 +14,7 @@ class _18MaxAltitudeTest {
         int[] gain = {-5,1,5,0,-7};
         //when
         _18MaxAltitude underTest = new _18MaxAltitude();
-        double result = underTest.largestAltitude(gain);
+        int result = underTest.largestAltitude(gain);
         //then
         assertEquals(1, result);
     }
@@ -26,7 +26,7 @@ class _18MaxAltitudeTest {
         int[] gain = {-4,-3,-2,-1,4,3,2};
         //when
         _18MaxAltitude underTest = new _18MaxAltitude();
-        double result = underTest.largestAltitude(gain);
+        int result = underTest.largestAltitude(gain);
         //then
         assertEquals(0, result);
     }
@@ -38,7 +38,7 @@ class _18MaxAltitudeTest {
         int[] gain = {-4,-3,-2,-1};
         //when
         _18MaxAltitude underTest = new _18MaxAltitude();
-        double result = underTest.largestAltitude(gain);
+        int result = underTest.largestAltitude(gain);
         //then
         assertEquals(0, result);
     }
