@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 public class _22EqualRowColumnPair {
     public int equalPairs(int[][] grid) {
 
+        // key could be too List.toString()
         HashMap<List<Integer>, Integer> map = new HashMap<>();
         for (int i = 0; i < grid.length ; i++) {
             List<Integer> row = new ArrayList<>(grid.length);
