@@ -6,7 +6,6 @@ public class _36CountGoodNodes {
     }
 
     private int countGoodNodes(TreeNode root, int x){
-
         if(root == null)
             return 0;
         int leftCount = countGoodNodes(root.left, Math.max(x, root.val));
